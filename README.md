@@ -1,5 +1,10 @@
 # EL-PDF Viewer
 
+<div align="center">
+  <img src="EL-PDF.ico" alt="EL-PDF Logo" width="128" height="128">
+  <h1>EL-PDF Viewer</h1>
+</div>
+
 > **Everyone's Lightweight PDF Viewer** — 一个不收费、无广告、不联网、不检测的 PDF 查看器。
 
 ## 为什么诞生了这个项目？
@@ -41,7 +46,9 @@ pip install -r requirements.txt
 python main.py
 ```
 
-> **打包发布**：后续会提供 `pipx install el-pdf` 与 GitHub Actions 自动构建的 `.exe` / `.AppImage` / `.dmg`。
+> **打包发布**：
+打包暂时将以手动构建的形式。<br>
+
 
 ## 键盘快捷键
 
@@ -65,6 +72,7 @@ python main.py
 - [ ] 页面操作（旋转、删除、拖拽排序）
 - [ ] 多标签页
 - [ ] 跨平台
+目前决定是先以最小可用开始，逐步添加功能。
 
 ## 贡献指南
 
