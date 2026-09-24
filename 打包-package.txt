@@ -1,0 +1,1 @@
+pyinstaller -F -w -i EL-PDF.ico --name EL-PDF --clean --add-data "README.md:." main.py
